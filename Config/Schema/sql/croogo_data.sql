@@ -421,7 +421,8 @@ INSERT IGNORE INTO `vocabularies` (`id`, `title`, `alias`, `description`, `requi
 (1, 'Categories', 'categories', '', 0, 1, 0, '', 1, '2010-05-17 20:03:11', '2009-07-22 02:16:21'),
 (2, 'Tags', 'tags', '', 0, 1, 0, '', 2, '2010-05-17 20:03:11', '2009-07-22 02:16:34');
 
----
---- Adds fubar/fubar user
----
-INSERT INTO `users` VALUES (1,1,'fubar','965d687d8d87a9f4bf9278666f31bf760d30c940','fubar','',NULL,'d050daf84a868d5cd45bb63417b3e13d',NULL,NULL,'0',1,'2013-02-20 11:19:47','2013-02-20 11:19:47');
+--
+-- Adds fubar/fubar user
+--
+
+INSERT INTO `users` VALUES (1,1,'fubar','a23403b42c670fa62fef623c56d2d3cc19d7754b','fubar','',NULL,'d050daf84a868d5cd45bb63417b3e13d',NULL,NULL,'0',1,'2013-02-20 11:19:47','2013-02-20 11:19:47');

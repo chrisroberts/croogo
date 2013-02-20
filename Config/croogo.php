@@ -187,12 +187,12 @@ Configure::write('Security.level', 'medium');
 /**
  * A random string used in security hashing methods.
  */
-Configure::write('Security.salt', 'f78b12a5c38e9e5c6ae6fbd0ff1f46c77a1e305d');
+Configure::write('Security.salt', 'f78b12a5c38e9e5c6ae6fbd0ff1f46c77a1e305c');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-Configure::write('Security.cipherSeed', '60170779348589376');
+Configure::write('Security.cipherSeed', '60170779348589377');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
